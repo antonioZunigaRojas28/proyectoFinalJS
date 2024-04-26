@@ -1,0 +1,56 @@
+[
+	{
+		"codigo": "1123101",
+		"nombre":"Martillo 8Oz",
+		"precio":15,
+		"img":"./img/Martillo.jpeg"
+	},
+	{
+		"codigo": "1123102",
+		"nombre":"Huincha 3m x 13mm",
+		"precio":14,
+		"img":"./img/Huincha.jpeg"
+	},
+	{
+		"codigo": "1123103",
+		"nombre":"Guantes Multiflex",
+		"precio":6,
+		"img":"./img/Guantes.jpeg"
+	},
+	{
+		"codigo": "1123104",
+		"nombre":"Casco Económico",
+		"precio":7,
+		"img":"./img/Casco.jpeg"
+	},
+	{
+		"codigo": "1123105",
+		"nombre":"Alicate Universal",
+		"precio":13,
+		"img":"./img/Alicate.jpeg"
+	},
+	{
+		"codigo": "1123106",
+		"nombre":"Set Destornilladores",
+		"precio":11,
+		"img":"./img/Destornilladores.jpeg"
+	},
+	{
+		"codigo": "1123107",
+		"nombre":"Taladro Percutor",
+		"precio":190,
+		"img":"./img/Taladro.jpeg"
+	},
+	{
+		"codigo": "1123108",
+		"nombre":"Amoladora angular",
+		"precio":222,
+		"img":"./img/Amoladora.jpeg"
+	},
+	{
+		"codigo": "1123109",
+		"nombre":"Disco para Madera",
+		"precio":23,
+		"img":"./img/Disco.jpeg"
+	}
+]
