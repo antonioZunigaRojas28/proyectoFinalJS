@@ -115,7 +115,7 @@ const comprarProductos=()=>{
 			actualizarCarrito();
 			Swal.fire({
 				title: "¡Gracias por tu compra!",
-				html: `<h4>Orden de Compra N°: 0001-${ultimaCompra}</h4><p>=================================</p><p>${nombre}</p><p>${hoy.toFormat('DDDD')}</p>`,
+				html: `<h4>Orden de Compra N°: 0001-${ultimaCompra}</h4><p>=================================</p><p>${nombre}</p><p>${hoy.toFormat('DDDD')}</p><p>${hoy.toFormat('hh:mm a')}</p>`,
 				icon: "success"
 			  });
 		}
@@ -157,6 +157,7 @@ catalogo.addEventListener('click', e => {
 		Toastify({
 			text: `${datosProductoSeleccionado.nombre} | agregado al carrito`,
 			duration: 5000,
+			gravity: "bottom", // `top` or `bottom`
 			style:{
 				background: "linear-gradient(to right, rgb(245, 230, 97), rgb(255, 255, 255))",
 				color: "rgb(0,0,0)",
